@@ -1,0 +1,13 @@
+package ban1333.enderbow.item;
+
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.ItemStack;
+
+public class ItemCreativeModeTab {
+    public static final CreativeModeTab TUTORIAL_TAB = new CreativeModeTab("tutorialtab") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(ModItems.ENDERBOW.get());
+        }
+    };
+}
