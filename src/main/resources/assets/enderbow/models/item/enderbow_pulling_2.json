@@ -1,6 +1,0 @@
-{
-    "parent": "enderbow:item/enderbow",
-    "textures": {
-        "layer0": "enderbow:item/enderbow_pulling_2"
-    }
-}
